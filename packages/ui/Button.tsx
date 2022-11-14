@@ -1,4 +1,7 @@
 import * as React from "react";
+
+export const renderButtonTitle = () => `hi there!`;
+
 export const Button = () => {
-  return <button>Boop</button>;
+  return <button>A button</button>;
 };
