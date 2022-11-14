@@ -10,7 +10,10 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "changeset": "npx changeset",
+    "changeset:version": "npx changeset version",
+    "changeset:tag": "npx changeset tag"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
